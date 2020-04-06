@@ -8,9 +8,9 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 const Router = require('./router');
 
-app.get('/', (req, res) => {
-    res.send('success')
-})
+// app.get('/', (req, res) => {
+//     res.send('success')
+// })
 
 app.use(Router)
 
